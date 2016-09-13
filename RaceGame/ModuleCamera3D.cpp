@@ -40,13 +40,7 @@ update_status ModuleCamera3D::Update(float dt)
 {
 	// Implement a debug camera with keys and mouse
 	// Now we can make this movememnt frame rate independant!
-	if (App->player->god_mode){
-		if (App->input->GetKey(SDL_SCANCODE_P) == KEY_DOWN)
-		{
-			camera = !camera;
-		}
-	}
-	if (camera){
+
 		vec3 newPos(0, 0, 0);
 		float speed = 3.0f * dt;
 		if (App->input->GetKey(SDL_SCANCODE_LSHIFT) == KEY_REPEAT)
@@ -101,38 +95,6 @@ update_status ModuleCamera3D::Update(float dt)
 
 			Position = Reference + Z * length(Position);
 		}
-	}
-	else{
-		bodyToFollow = App->player->vehicle;
-		if (bodyToFollow != NULL)
-		{
-			mat4x4 matrix;
-			bodyToFollow->GetTransform(&matrix);
-
-			X = vec3(matrix[0], matrix[1], matrix[2]);
-			Y = vec3(matrix[4], matrix[5], matrix[6]);
-			Z = vec3(matrix[8], matrix[9], matrix[10]);
-
-			Look(vec3(matrix.M[12], matrix.M[13] + 6, matrix.M[14]) - Z * 10, vec3(matrix[12], matrix[13] + 2, matrix[14]), true);
-
-		}
-
-		if (Position.x > 75){
-			Position.x = 75;
-		}
-		if (Position.x < -75){
-			Position.x = -75;
-		}
-		if (Position.z > 75){
-			Position.z = 75;
-		}
-		if (Position.z < -75){
-			Position.z = -75;
-		}
-
-	}
-	// Recalculate matrix -------------
-	CalculateViewMatrix();
 	
 	return UPDATE_CONTINUE;
 }
