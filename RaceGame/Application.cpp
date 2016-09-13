@@ -1,4 +1,6 @@
 #include "Application.h"
+#include "ImGui\imgui.h"
+#include "ImGui\imgui_impl_sdl.h"
 
 Application::Application()
 {
@@ -65,6 +67,7 @@ bool Application::Init()
 	}
 	
 	ms_timer.Start();
+	ImGui_ImplSdl_Init(window->window);
 	return ret;
 }
 
@@ -83,6 +86,8 @@ void Application::FinishUpdate()
 // Call PreUpdate, Update and PostUpdate on all modules
 update_status Application::Update()
 {
+	ImGui_ImplSdl_NewFrame(window->window);
+
 	update_status ret = UPDATE_CONTINUE;
 	PrepareUpdate();
 	
@@ -124,6 +129,7 @@ bool Application::CleanUp()
 		ret = item->data->CleanUp();
 		item = item->prev;
 	}
+	ImGui_ImplSdl_Shutdown();
 	return ret;
 }
 

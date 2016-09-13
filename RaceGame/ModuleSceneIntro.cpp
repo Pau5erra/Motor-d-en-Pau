@@ -4,6 +4,8 @@
 #include "Primitive.h"
 #include "PhysBody3D.h"
 #include "ModulePlayer.h"
+#include "ImGui\imgui.h"
+#include "ImGui\imgui_impl_sdl.h"
 #include <ctime>
 
 ModuleSceneIntro::ModuleSceneIntro(Application* app, bool start_enabled) : Module(app, start_enabled)
@@ -19,7 +21,9 @@ bool ModuleSceneIntro::Start()
 {
 	LOG("Loading Intro assets");
 	bool ret = true;
+
 	
+
 	return ret;
 }
 
@@ -34,6 +38,23 @@ bool ModuleSceneIntro::CleanUp()
 // Update
 update_status ModuleSceneIntro::Update(float dt)
 {
+	bool quit = false;
+	bool show_test_window = false;
+	
+	{
+		ImGui::Text("Hello, world!");
+		if (ImGui::Button("quit")) quit ^= 1;
+		if (ImGui::Button("example")) show_test_window ^= 1;
+	}
+
+	if (quit) {
+		SDL_QUIT;
+	}
+	if (show_test_window) {
+
+		ImGui::SetNextWindowPos(ImVec2(650, 20), ImGuiSetCond_FirstUseEver);
+		ImGui::ShowTestWindow(&show_test_window);
+	}
 
 	return UPDATE_CONTINUE;
 }
