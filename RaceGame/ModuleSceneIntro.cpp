@@ -22,7 +22,8 @@ bool ModuleSceneIntro::Start()
 	LOG("Loading Intro assets");
 	bool ret = true;
 
-	
+	quit = false;
+	show_test_window = false;
 
 	return ret;
 }
@@ -38,8 +39,7 @@ bool ModuleSceneIntro::CleanUp()
 // Update
 update_status ModuleSceneIntro::Update(float dt)
 {
-	bool quit = false;
-	bool show_test_window = false;
+
 	
 	{
 		ImGui::Text("Hello, world!");
@@ -48,7 +48,7 @@ update_status ModuleSceneIntro::Update(float dt)
 	}
 
 	if (quit) {
-		SDL_QUIT;
+		return UPDATE_STOP;
 	}
 	if (show_test_window) {
 

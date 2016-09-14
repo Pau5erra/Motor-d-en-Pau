@@ -19,6 +19,9 @@ public:
 	update_status Update(float dt);
 	bool CleanUp();
 
+	bool quit;
+	bool show_test_window;
+
 public:
 	
 };
