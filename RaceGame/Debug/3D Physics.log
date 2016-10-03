@@ -1,47 +1,148 @@
-﻿Build started 14/9/2016 10:16:35.
-     1>Project "C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\3D Physics.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Main.cpp ModuleAudio.cpp ModuleCamera3D.cpp ModuleInput.cpp ModulePhysics3D.cpp ModulePlayer.cpp ModuleRenderer3D.cpp ModuleSceneIntro.cpp ModuleWindow.cpp
-         ModuleWindow.cpp
-         ModuleSceneIntro.cpp
-         ModuleRenderer3D.cpp
-         ModulePlayer.cpp
-         ModulePhysics3D.cpp
-         ModuleInput.cpp
-         ModuleCamera3D.cpp
-         ModuleAudio.cpp
-     1>c:\users\pausc1\documents\github\motor-d-en-pau\racegame\moduleaudio.cpp(163): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\pausc1\documents\github\motor-d-en-pau\racegame\moduleaudio.cpp(168): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-         Main.cpp
-         Generating Code...
-         Compiling...
-         Application.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\Debug\3D Physics - class5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\Debug\3D Physics - class5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\Debug\3D Physics - class5.lib" /MACHINE:X86 /SAFESEH:NO Debug\Application.obj
-         Debug\Color.obj
-         Debug\glmath.obj
-         Debug\imgui.obj
-         Debug\imgui_demo.obj
-         Debug\imgui_draw.obj
-         Debug\imgui_impl_sdl.obj
-         Debug\Light.obj
-         Debug\log.obj
-         Debug\Main.obj
-         Debug\ModuleAudio.obj
-         Debug\ModuleCamera3D.obj
-         Debug\ModuleInput.obj
-         Debug\ModulePhysics3D.obj
-         Debug\ModulePlayer.obj
-         Debug\ModuleRenderer3D.obj
-         Debug\ModuleSceneIntro.obj
-         Debug\ModuleWindow.obj
-         Debug\PhysBody3D.obj
-         Debug\Primitive.obj
-         Debug\Timer.obj
-         3D Physics.vcxproj -> C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\Debug\3D Physics - class5.exe
-     1>Done Building Project "C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\3D Physics.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:09.13
+﻿  Timer.cpp
+  Primitive.cpp
+  PhysBody3D.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleWindow.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleSceneIntro.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleRenderer3D.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModulePlayer.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModulePhysics3D.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleInput.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleCamera3D.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleAudio.cpp
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\moduleaudio.cpp(163): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\moduleaudio.cpp(168): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  Main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  log.cpp
+  Light.cpp
+  imgui_impl_sdl.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  glmath.cpp
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(72): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(87): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(103): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(600): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(618): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(758): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pausc1\documents\github\motor-d-en-pau\racegame\glmath.cpp(778): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Color.cpp
+  Generating Code...
+  Compiling...
+  Application.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(359): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  Generating Code...
+BulletDynamics_vs2010_debug.lib(btDiscreteDynamicsWorld.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btRigidBody.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btPoint2PointConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btHingeConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btSequentialImpulseConstraintSolver.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btRaycastVehicle.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btTypedConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btConeTwistConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btGeneric6DofConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btWheelInfo.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletDynamics_vs2010_debug.lib(btContactConstraint.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCollisionDispatcher.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCollisionShape.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btConvexShape.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btDefaultCollisionConfiguration.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btDbvtBroadphase.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCollisionObject.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btManifoldResult.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCollisionWorld.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btSimulationIslandManager.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btPolyhedralConvexShape.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btConvexConvexAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btEmptyCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btDbvt.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btOverlappingPairCache.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btBvhTriangleMeshShape.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btUnionFind.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btConvexPolyhedron.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btActivatingCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btPolyhedralContactClipping.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btHashedSimplePairCache.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btQuantizedBvh.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+BulletCollision_vs2010_debug.lib(btOptimizedBvh.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+LinearMath_vs2010_debug.lib(btQuickprof.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+LinearMath_vs2010_debug.lib(btConvexHullComputer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+LinearMath_vs2010_debug.lib(btGeometryUtil.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Application.obj
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+SDL2main.lib(SDL_windows_main.obj) : warning LNK4217: locally defined symbol _fprintf imported in function _ShowError
+BulletCollision_vs2010_debug.lib(btVoronoiSimplexSolver.obj) : warning LNK4049: locally defined symbol _printf imported
+LinearMath_vs2010_debug.lib(btQuickprof.obj) : warning LNK4049: locally defined symbol _printf imported
+LinearMath_vs2010_debug.lib(btConvexHullComputer.obj) : warning LNK4049: locally defined symbol _printf imported
+LinearMath_vs2010_debug.lib(btGeometryUtil.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btGjkEpa2.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btTriangleMeshShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btQuantizedBvh.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btOptimizedBvh.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btPolyhedralContactClipping.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btHashedSimplePairCache.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btBoxBoxDetector.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(SphereTriangleDetector.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btContinuousConvexCollision.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btUnionFind.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexPolyhedron.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btGjkPairDetector.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btOverlappingPairCache.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btBvhTriangleMeshShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btRaycastCallback.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btSubSimplexConvexCast.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btDbvt.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btCollisionWorld.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btSimulationIslandManager.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btPolyhedralConvexShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexConvexAlgorithm.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btStaticPlaneShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btDbvtBroadphase.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btPersistentManifold.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btManifoldResult.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexInternalShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btBoxShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btSphereShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btCylinderShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btGeneric6DofConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btContactConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btCollisionDispatcher.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletCollision_vs2010_debug.lib(btConvexShape.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btRaycastVehicle.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btTypedConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btConeTwistConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btDiscreteDynamicsWorld.obj) : warning LNK4217: locally defined symbol _printf imported in function "public: class btActionInterface * & __thiscall btAlignedObjectArray<class btActionInterface *>::operator[](int)" (??A?$btAlignedObjectArray@PAVbtActionInterface@@@@QAEAAPAVbtActionInterface@@H@Z)
+BulletDynamics_vs2010_debug.lib(btRigidBody.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btPoint2PointConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+BulletDynamics_vs2010_debug.lib(btHingeConstraint.obj) : warning LNK4049: locally defined symbol _printf imported
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol __imp____iob_func referenced in function _ShowError
+C:\Users\pausc1\Documents\GitHub\Motor-d-en-Pau\RaceGame\Debug\3D Physics - class5.exe : fatal error LNK1120: 1 unresolved externals
